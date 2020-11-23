@@ -1,0 +1,47 @@
+{
+  "Commercial Truck Driver": {
+    "isa_cap": "1.5",
+    "isa_length": "24",
+    "isa_take": "0.091",
+    "isa_threshold": "25000",
+    "loan_interest": "0.09",
+    "tuition": "6000",
+    "typical_salary": "37500"
+  },
+  "Dental Assistant": {
+    "isa_cap": "1.6",
+    "isa_length": "36",
+    "isa_take": "0.070",
+    "isa_threshold": "25000",
+    "loan_interest": "0.13",
+    "tuition": "5500",
+    "typical_salary": "31000"
+  },
+  "Diesel Mechanic": {
+    "isa_cap": "1.8",
+    "isa_length": "36",
+    "isa_take": "0.081",
+    "isa_threshold": "25000",
+    "loan_interest": "0.13",
+    "tuition": "6500",
+    "typical_salary": "33400"
+  },
+  "Electrician": {
+    "isa_cap": "1.7",
+    "isa_length": "36",
+    "isa_take": "0.082",
+    "isa_threshold": "25000",
+    "loan_interest": "0.14",
+    "tuition": "7500",
+    "typical_salary": "39100"
+  },
+  "Solar Technician": {
+    "isa_cap": "1.5",
+    "isa_length": "48",
+    "isa_take": "0.071",
+    "isa_threshold": "25000",
+    "loan_interest": "0.10",
+    "tuition": "8700",
+    "typical_salary": "39300"
+  }
+}
