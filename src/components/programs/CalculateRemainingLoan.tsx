@@ -73,17 +73,17 @@ const CalculateRemainingLoan: React.FC<ICalculateRemainingLoanProps> = (
         );
 
         const remainingPaymentNode = remainingPayment ? (
-            <Space>
-                <span>After</span>
-                <Tag style={{ margin: 0 }}>{yrs}</Tag>
-                <span>years, you will have</span>
-                <Tag style={{ margin: 0 }}>${remainingPayment}</Tag>
+            <div>
+                <span>After </span>
+                <Tag style={{ margin: "0 8px" }}>{yrs}</Tag>
+                <span>{yrs === 1 ? "year" : "years"}, you will have </span>
+                <Tag style={{ margin: "0 8px" }}>${remainingPayment}</Tag>
                 <span>left</span>
-            </Space>
+            </div>
         ) : null;
 
         content = (
-            <Space size={16}>
+            <Space size={16} direction="vertical">
                 {input}
                 {error && showContent ? (
                     <Alert type="error" message={error} />
