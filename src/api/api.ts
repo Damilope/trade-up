@@ -9,7 +9,7 @@ const defaultHeaders = new Headers();
 defaultHeaders.append("Content-Type", "application/json");
 
 function getURL(path: string) {
-    return normalize(baseURL + "/" + path);
+    return `${baseURL}${normalize("/" + path)}`;
 }
 
 const programsURL = getURL("/terms");
